@@ -1,0 +1,159 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:slategray;
+}
+/* unvisited link */
+a:link {
+  color:white;
+}
+
+/* visited link */
+a:visited {
+  color:white;
+}
+
+/* mouse over link */
+a:hover {
+  color:yellowgreen;
+}
+
+/* selected link */
+a:active {
+  color:green;
+}
+.heading{
+    background-image: url("Intro.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    overflow:hidden;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    Font-family: arial;
+    font-size:20px;
+    padding-bottom:20%;
+    padding-top:20%;
+}
+.intro{
+    color:white;
+    background-color:yellowgreen;
+    text-transform:uppercase;
+    text-align:center;
+    font-family: verdana, Arial, Helvetica;
+    font-size:medium;
+}
+.introparagaph{
+    text-indent: 50px;
+    font-size: 20px;
+    text-align:left;
+    font-family: arial;
+    color:white;
+}
+  
+img{
+    max-width: 30%;
+    max-height:20%;
+    float: left;
+    padding-left: 0;
+  }
+  
+  .content {
+    background-color:lavender;
+    color:black;
+    text-align:left;
+    font-family:arial;
+    font-size: 20px;
+    padding-left:0%;
+    padding-top: 5%;
+    float: left;
+  }
+  .target_audience{
+    background-color:lavender;
+    color:black;
+    text-align:right;
+    font-family:arial;
+    font-size: 20px;
+    padding-left:0%;
+    padding-top: 1%;
+    padding-bottom:5%;
+    float: left;
+  }
+  .needs_intro{
+    background-color:yellowgreen;
+    padding-top: 10%;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    font-family: verdana, Arial, Helvetica;
+}
+
+.Needs_content span,
+.Needs_content{
+    font-size:19px;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+.list_header{
+    text-align:left;
+    font-size:20px;
+    color:white;
+    text-transform:uppercase;
+}
+.needsOfContent_header{
+    text-align:left;
+    font-size:20px;
+    color:white;
+    text-transform:uppercase;
+}
+.needsMain{
+    text-indent: 50px;
+    font-size: 20px;
+    text-align:left;
+    font-family: arial;
+    color:white;
+}
+.logisticshead{
+    padding-top:2%;
+    text-align:left;
+    font-size:20px;
+    color:white;
+    text-transform:uppercase;
+}
+.logisticalLabel span,
+.logisticalLabel{
+    text-transform:uppercase;
+    padding-bottom:2%;
+    text-align:center;
+    color:white;
+    word-spacing:150px;
+}
+
+.pics{
+     background-color:slategray;
+     margin-left: 170px;
+     justify-content: space-between;
+}
+.proposalshead{
+    padding-top:20%;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    font-family: verdana, Arial, Helvetica;
+    font-size:medium;
+    }
+
+    proposalshead h3{
+        background-color: yellowgreen;
+    }
+	.paragraphlast{
+	text-indent: 50px;
+    font-size: 20px;
+    text-align:left;
+    font-family: arial;
+    color:white;
+	}
